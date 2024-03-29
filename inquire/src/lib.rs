@@ -76,7 +76,7 @@ mod input;
 pub mod list_option;
 pub mod parser;
 mod prompts;
-mod terminal;
+pub mod terminal;
 pub mod type_aliases;
 pub mod ui;
 mod utils;

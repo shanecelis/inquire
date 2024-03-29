@@ -7,6 +7,7 @@ mod frame_renderer;
 mod input_reader;
 
 pub(crate) use backend::*;
-pub(crate) use input_reader::*;
+pub use input_reader::*;
+pub use key::*;
 
 pub use api::*;
